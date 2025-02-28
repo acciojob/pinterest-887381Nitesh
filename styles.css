@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .hero-content {
+            text-align: center;
+            max-width: 600px;
+			
+         }
+
+        .hero img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+			
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .explore-btn {
+            padding: 12px 20px;
+            background-color: #e60023;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 8px;
+        }
+
+        .explore-btn:hover {
+            background-color: #b3001b;
+        }
